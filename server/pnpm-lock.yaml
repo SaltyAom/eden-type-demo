@@ -1,0 +1,56 @@
+lockfileVersion: 5.4
+
+specifiers:
+  '@elysiajs/swagger': ^0.2.0
+  bun-types: ^0.5.0
+  elysia: ^0.2.0
+
+dependencies:
+  '@elysiajs/swagger': 0.2.0_elysia@0.2.0
+  elysia: 0.2.0
+
+devDependencies:
+  bun-types: 0.5.0
+
+packages:
+
+  /@elysiajs/static/0.2.0_elysia@0.2.0:
+    resolution: {integrity: sha512-zsp943vGm7//yKvquHTCBEIOpa2XN2+idREYy5VlUMcaDEbXmE2NZm7BAQ8eD/ieDskRB+ykf3Hx9tzIQoyo0Q==}
+    peerDependencies:
+      elysia: '>= 0.2.0'
+    dependencies:
+      elysia: 0.2.0
+    dev: false
+
+  /@elysiajs/swagger/0.2.0_elysia@0.2.0:
+    resolution: {integrity: sha512-+zEEAkdNzp4DIV8imoxFhfQZZ8EpljEFgN6/FvdDiJK3LjDmamr3QhxeDW02Gxm+AigZJcOqn+EqxIXuOqlwfQ==}
+    peerDependencies:
+      elysia: '>= 0.2.0'
+    dependencies:
+      '@elysiajs/static': 0.2.0_elysia@0.2.0
+      elysia: 0.2.0
+      swagger-ui-dist: 4.15.5
+    dev: false
+
+  /@sinclair/typebox/0.25.21:
+    resolution: {integrity: sha512-gFukHN4t8K4+wVC+ECqeqwzBDeFeTzBXroBTqE6vcWrQGbEUpHO7LYdG0f4xnvYq4VOEwITSlHlp0JBAIFMS/g==}
+    dev: false
+
+  /bun-types/0.5.0:
+    resolution: {integrity: sha512-W74XkTKdOP2HV1PbzL7k6+8TZlcJyj1IuD7y9wX2SiHIaVjlqVwM9fXgsCvTlQQqkkkyZxSPSDFF10J6qml2eA==}
+    dev: true
+
+  /elysia/0.2.0:
+    resolution: {integrity: sha512-PRsoEG2XimHVcIQpyZoYYR90aMWTnaUy73hzAKudvKISuRp+Q68ciozV5GGxokIQSXIgUe5oJ9CJLzq9AHB9ww==}
+    dependencies:
+      '@sinclair/typebox': 0.25.21
+      openapi-types: 12.1.0
+    dev: false
+
+  /openapi-types/12.1.0:
+    resolution: {integrity: sha512-XpeCy01X6L5EpP+6Hc3jWN7rMZJ+/k1lwki/kTmWzbVhdPie3jd5O2ZtedEx8Yp58icJ0osVldLMrTB/zslQXA==}
+    dev: false
+
+  /swagger-ui-dist/4.15.5:
+    resolution: {integrity: sha512-V3eIa28lwB6gg7/wfNvAbjwJYmDXy1Jo1POjyTzlB6wPcHiGlRxq39TSjYGVjQrUSAzpv+a7nzp7mDxgNy57xA==}
+    dev: false
